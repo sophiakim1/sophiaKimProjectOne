@@ -1,0 +1,18 @@
+html {
+    font-size: 125%;
+}
+
+body {
+    font-family: $bodyFont;
+    font-size: 1rem;
+    color: $primary;
+}
+
+h1 {
+    font-family: $headingFont;
+    font-size: 6.9rem; // 138px
+    font-weight: bold;
+    color: $primary;
+    line-height: 126px;
+    text-transform: uppercase;
+}

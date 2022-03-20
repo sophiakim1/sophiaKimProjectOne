@@ -1,6 +1,28 @@
 header {
-    background-image: url(../assets/header-image.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/header-image.jpg);
     background-size: cover;
     min-height: 100vh;
-    padding: 50px 0;
+    padding: 29px 0;
+    
+    .wrapper {
+        display: flex;
+        margin: 0;
+        position: relative;
+    }
+
+    img {
+        position: absolute;
+        left: 620px;
+        top: 140px;
+
+    }
+}
+
+h1 {
+    padding-left: 150px;
+    padding-top: 40px;
+}
+
+h1 span {
+    display: block;
 }

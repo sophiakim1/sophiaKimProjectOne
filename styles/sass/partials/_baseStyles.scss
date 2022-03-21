@@ -1,0 +1,152 @@
+.about {
+    background-color: $secondary;
+    margin: 0;
+    padding: 210px 190px;
+    text-align: center;
+    
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        text-align: start;
+    }
+}
+
+button {
+    font-family: $headingFont;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: $tertiary;
+    border: none;
+    padding: 8px 32px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+.fishes {
+    background-color: $quaternary;
+    margin: 0;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+    button {
+        background-color: $secondary;
+        color: $primary;
+    }
+}
+
+.newAdditionsImage {
+    width: 45%;
+    position: relative;
+
+    img {
+        max-width: 100%;
+        vertical-align: middle;
+        position: absolute;
+        bottom: -140px;
+    }
+}
+
+.newAdditionsContentContainer {
+    width: 55%;
+    padding-left: 50px;
+
+    .newAdditionsContent {
+        width: 65%;
+        margin: 0 auto;
+    }
+}
+
+
+.meetRealNemoContentContainer {
+    width: 55%;
+
+    .meetRealNemoContent {
+        width: 65%;
+        margin: 0 auto;
+        text-align: end;
+        padding-right: 20px;
+    }
+}
+
+.meetRealNemoImage {
+    width: 45%;
+    position: relative;
+
+    img {
+        max-width: 100%;
+        vertical-align: middle;
+        position: absolute;
+        top: -150px;
+        left: 20px;
+    }
+}
+
+.connections {
+    background-color: $secondary;
+    margin: 0;
+    padding: 50px 0;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li {
+        display: inline-block;
+        width: 40%;
+        padding: 50px 0 0 50px;
+        margin-left: 60px;
+    }
+}
+
+.shark {
+    img {
+        width: 100%;
+    }
+}
+
+.highlightContainer {
+    background-color: $secondary;
+    margin-top: -10px;
+    display: flex;
+    padding: 90px 50px;
+
+    .highlightImage {
+        width: 45%;
+        position: relative;
+
+        img {
+            max-width: 100%;
+            vertical-align: middle;
+            position: absolute;
+            top: 30px;
+            left: 130px;
+        }
+    }
+
+    .highlightContent {
+        width: 55%;
+    }
+}
+
+.gallery {
+    background-color: $quaternary;
+    margin-top: -20px;
+    padding: 60px 80px;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
+}

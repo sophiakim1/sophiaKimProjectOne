@@ -6,6 +6,7 @@ body {
     font-family: $bodyFont;
     font-size: 1rem;
     color: $primary;
+    line-height: 32px;
 }
 
 h1 {
@@ -26,6 +27,31 @@ ul li a {
     font-weight: bold;
     color: $primary;
     line-height: 29px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: $headingFont;
+    font-size: 2.1rem; // 42px
+    font-weight: bold;
+    color: $primary;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: $bodyFont;
+    font-size: 1rem;
+    color: $primary;
+    line-height: 32px;
+}
+
+h4 {
+    font-family: $headingFont;
+    font-size: 1.6rem; // 32px
+    font-weight: bold;
+    color: $primary;
     letter-spacing: 1px;
     text-transform: uppercase;
 }

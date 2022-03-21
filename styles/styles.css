@@ -234,6 +234,7 @@ body {
   font-family: "Lato";
   font-size: 1rem;
   color: #ffffff;
+  line-height: 32px;
 }
 
 h1 {
@@ -255,6 +256,31 @@ ul li a {
   font-weight: bold;
   color: #ffffff;
   line-height: 29px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "Barlow";
+  font-size: 2.1rem;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Lato";
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 32px;
+}
+
+h4 {
+  font-family: "Barlow";
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -313,4 +339,153 @@ nav a {
 nav a:hover,
 nav a:focus {
   color: #86e0f9;
+}
+
+.about {
+  background-color: #0c1423;
+  margin: 0;
+  padding: 210px 190px;
+  text-align: center;
+}
+.about h3 {
+  text-align: center;
+}
+.about p {
+  text-align: start;
+}
+
+button {
+  font-family: "Barlow";
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #86e0f9;
+  border: none;
+  padding: 8px 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.fishes {
+  background-color: #0f614e;
+  margin: 0;
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.fishes button {
+  background-color: #0c1423;
+  color: #ffffff;
+}
+
+.newAdditionsImage {
+  width: 45%;
+  position: relative;
+}
+.newAdditionsImage img {
+  max-width: 100%;
+  vertical-align: middle;
+  position: absolute;
+  bottom: -140px;
+}
+
+.newAdditionsContentContainer {
+  width: 55%;
+  padding-left: 50px;
+}
+.newAdditionsContentContainer .newAdditionsContent {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.meetRealNemoContentContainer {
+  width: 55%;
+}
+.meetRealNemoContentContainer .meetRealNemoContent {
+  width: 65%;
+  margin: 0 auto;
+  text-align: end;
+  padding-right: 20px;
+}
+
+.meetRealNemoImage {
+  width: 45%;
+  position: relative;
+}
+.meetRealNemoImage img {
+  max-width: 100%;
+  vertical-align: middle;
+  position: absolute;
+  top: -150px;
+  left: 20px;
+}
+
+.connections {
+  background-color: #0c1423;
+  margin: 0;
+  padding: 50px 0;
+}
+.connections ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.connections li {
+  display: inline-block;
+  width: 40%;
+  padding: 50px 0 0 50px;
+  margin-left: 60px;
+}
+
+.shark img {
+  width: 100%;
+}
+
+.highlightContainer {
+  background-color: #0c1423;
+  margin-top: -10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 90px 50px;
+}
+.highlightContainer .highlightImage {
+  width: 45%;
+  position: relative;
+}
+.highlightContainer .highlightImage img {
+  max-width: 100%;
+  vertical-align: middle;
+  position: absolute;
+  top: 30px;
+  left: 130px;
+}
+.highlightContainer .highlightContent {
+  width: 55%;
+}
+
+.gallery {
+  background-color: #0f614e;
+  margin-top: -20px;
+  padding: 60px 80px;
+}
+.gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }

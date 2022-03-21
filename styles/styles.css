@@ -489,3 +489,15 @@ button {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+
+footer {
+  background-color: #86e0f9;
+  border-top: 2px solid #0c1423;
+  margin: 0;
+}
+footer p {
+  color: #0c1423;
+  text-align: center;
+  margin: 0;
+  padding: 7px;
+}

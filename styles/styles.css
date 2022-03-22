@@ -570,6 +570,78 @@ button {
 .mainBlogContainer {
   width: 65%;
 }
+
+.contactMain {
+  background-color: #0c1423;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contactContainer {
+  padding: 140px;
+  width: 38%;
+}
+.contactContainer p {
+  color: #c0bfbf;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.contactContainer h5 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.social a {
+  color: #ffffff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.contactForm {
+  width: 75%;
+  background-color: #0f614e;
+  position: absolute;
+  top: 180px;
+  left: 300px;
+}
+.contactForm form {
+  padding: 70px 50px 50px 50px;
+}
+.contactForm form :-moz-placeholder-shown {
+  padding: 20px;
+}
+.contactForm form :-ms-input-placeholder {
+  padding: 20px;
+}
+.contactForm form :placeholder-shown {
+  padding: 20px;
+}
+.contactForm input {
+  margin-bottom: 50px;
+  margin-right: 18px;
+  width: calc(50% - 20px);
+}
+.contactForm textarea {
+  margin-bottom: 50px;
+  width: 100%;
+}
+.contactForm button {
+  background-color: #0c1423;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0;
+}
+
 footer {
   background-color: #86e0f9;
   border-top: 2px solid #0c1423;

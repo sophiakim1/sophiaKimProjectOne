@@ -28,8 +28,6 @@ button {
     margin-top: 10px;
 }
 
-
-
 .fishes {
     background-color: $quaternary;
     margin: 0;
@@ -37,7 +35,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-
+    height: 870px;
 
     button {
         background-color: $secondary;
@@ -48,18 +46,20 @@ button {
 .newAdditionsImage {
     width: 45%;
     position: relative;
-
+    
     img {
         max-width: 100%;
         vertical-align: middle;
         position: absolute;
-        bottom: -140px;
+        bottom: -49px;
+        box-shadow: 40px 40px 0px -3px $tertiary;
     }
 }
 
 .newAdditionsContentContainer {
     width: 55%;
-    padding-left: 50px;
+    padding-left: 25px;
+    padding-bottom: 200px;
 
     .newAdditionsContent {
         width: 65%;
@@ -67,15 +67,15 @@ button {
     }
 }
 
-
 .meetRealNemoContentContainer {
     width: 55%;
 
     .meetRealNemoContent {
         width: 65%;
         margin: 0 auto;
+        margin-top: -100px;
         text-align: end;
-        padding-right: 20px;
+        padding-right: 0;
     }
 }
 
@@ -87,8 +87,10 @@ button {
         max-width: 100%;
         vertical-align: middle;
         position: absolute;
-        top: -150px;
-        left: 20px;
+        top: -200px;
+        left: 15px;
+        box-shadow: -35px 35px 0px -3px $tertiary;
+
     }
 }
 
@@ -105,8 +107,48 @@ button {
     li {
         display: inline-block;
         width: 40%;
-        padding: 50px 0 0 50px;
+        padding: 20px 0 0 50px;
         margin-left: 60px;
+    }
+
+    .location::before {
+        font-family: 'Font Awesome\ 5 Free';
+        content: "\f124";
+        display: inline-block;
+        font-size: 2rem;
+        color: $tertiary;
+        margin-left: -50px;
+        padding-right: 10px;
+    }
+    
+    .blog::before {
+        font-family: 'Font Awesome\ 5 Free';
+        content: "\f15b";
+        display: inline-block;
+        font-size: 2rem;
+        color: $tertiary;
+        margin-left: -50px;
+        padding-right: 10px;
+    }
+    
+    .community::before {
+        font-family: 'Font Awesome\ 5 Free';
+        content: "\f2bd";
+        display: inline-block;
+        font-size: 2rem;
+        color: $tertiary;
+        margin-left: -50px;
+        padding-right: 10px;
+    }
+
+    .phone::before {
+        font-family: 'Font Awesome\ 5 Free';
+        content: "\f879";
+        display: inline-block;
+        font-size: 2rem;
+        color: $tertiary;
+        margin-left: -50px;
+        padding-right: 10px;
     }
 }
 
@@ -132,6 +174,7 @@ button {
             position: absolute;
             top: 30px;
             left: 130px;
+            box-shadow: 40px 40px 0px -3px $tertiary;
         }
     }
 
@@ -157,7 +200,7 @@ button {
     background-color: $secondary;
     display: flex;
     flex-wrap: wrap;
-    height: 2200px;
+    height: 2500px;
 }
 
 .sideBlogContainer {
@@ -180,6 +223,15 @@ button {
         top: 700px;
         left: 140px;
         z-index: 10;
+
+        h5 {
+            margin-bottom: 0;
+        }
+
+        ul li {
+            margin-left: -20px;
+            padding-left: 10px;
+            }
     }
 }
 
@@ -194,14 +246,15 @@ button {
             position: absolute;
             top: -240px;
             left: 118px;
+            box-shadow: -35px 35px 0px -3px $tertiary;
         }
     }
 
     .right {
         width: 50%;
         position: absolute;
-        top: 1000px;
-        left: 650px;
+        top: 905px;
+        left: 617.5px;
     }
 }
 
@@ -211,6 +264,7 @@ button {
     padding-left: 50px;
 
     h3 {
+        padding-top: 50px;
         margin-bottom: 15px;
     }
 
@@ -232,7 +286,7 @@ button {
 
 .commentTopContent {
     width: 100%;
-    padding-left: 150px;
+    padding-left: 130px;
     padding-bottom: 100px;
     margin-top: -5px;
 }
@@ -249,7 +303,7 @@ button {
 
 .commentBottomContent {
     width: 100%;
-    padding-left: 150px;
+    padding-left: 130px;
     padding-bottom: 100px;
     margin-top: -25px;
 }

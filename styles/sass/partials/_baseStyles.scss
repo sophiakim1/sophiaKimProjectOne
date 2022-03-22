@@ -28,6 +28,12 @@ button {
     margin-top: 10px;
 }
 
+button:hover,
+button:focus {
+    transform: translateY(-7px);
+    cursor: pointer;
+}
+
 .fishes {
     background-color: $quaternary;
     margin: 0;

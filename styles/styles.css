@@ -418,6 +418,13 @@ button {
   margin-top: 10px;
 }
 
+button:hover,
+button:focus {
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+  cursor: pointer;
+}
+
 .fishes {
   background-color: #0f614e;
   margin: 0;

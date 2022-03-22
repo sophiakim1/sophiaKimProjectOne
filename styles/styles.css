@@ -544,6 +544,7 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  height: 2200px;
 }
 
 .sideBlogContainer {
@@ -569,6 +570,66 @@ button {
 
 .mainBlogContainer {
   width: 65%;
+}
+.mainBlogContainer .mainBlogImage {
+  position: relative;
+}
+.mainBlogContainer .mainBlogImage img {
+  width: 88%;
+  position: absolute;
+  top: -240px;
+  left: 118px;
+}
+.mainBlogContainer .right {
+  width: 50%;
+  position: absolute;
+  top: 1000px;
+  left: 650px;
+}
+
+.mainBlogText {
+  border-left: 4px solid #86e0f9;
+  border-bottom: 4px solid #86e0f9;
+  padding-left: 50px;
+}
+.mainBlogText h3 {
+  margin-bottom: 15px;
+}
+.mainBlogText p.date {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.commentTopImage {
+  width: 20%;
+  position: relative;
+}
+.commentTopImage img {
+  max-width: 100%;
+  position: absolute;
+}
+
+.commentTopContent {
+  width: 100%;
+  padding-left: 150px;
+  padding-bottom: 100px;
+  margin-top: -5px;
+}
+
+.commentBottomImage {
+  width: 20%;
+  position: relative;
+}
+.commentBottomImage img {
+  max-width: 100%;
+  position: absolute;
+}
+
+.commentBottomContent {
+  width: 100%;
+  padding-left: 150px;
+  padding-bottom: 100px;
+  margin-top: -25px;
 }
 
 .contactMain {
@@ -599,6 +660,58 @@ button {
           justify-content: space-between;
   padding-right: 20px;
   text-decoration: none;
+}
+
+footer {
+  background-color: #86e0f9;
+  border-top: 2px solid #0c1423;
+  margin: 0;
+}
+footer p {
+  color: #0c1423;
+  text-align: center;
+  margin: 0;
+  padding: 7px;
+}
+
+.commentPost {
+  margin-top: -20px;
+}
+.commentPost :-moz-placeholder-shown {
+  padding: 20px;
+}
+.commentPost :-ms-input-placeholder {
+  padding: 20px;
+}
+.commentPost :placeholder-shown {
+  padding: 20px;
+}
+.commentPost button {
+  background-color: #0f614e;
+  color: #ffffff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+input {
+  margin-bottom: 50px;
+  margin-right: 18px;
+  width: calc(50% - 20px);
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  border-bottom: 2px solid #86e0f9;
+}
+
+textarea {
+  width: 100%;
+  height: 235px;
+  background-color: transparent;
+  border: 2px solid #86e0f9;
+  color: #ffffff;
 }
 
 .contactForm {
@@ -640,33 +753,4 @@ button {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 0;
-}
-
-footer {
-  background-color: #86e0f9;
-  border-top: 2px solid #0c1423;
-  margin: 0;
-}
-footer p {
-  color: #0c1423;
-  text-align: center;
-  margin: 0;
-  padding: 7px;
-}
-
-.commentPost button {
-  background-color: #0f614e;
-}
-
-input {
-  background-color: transparent;
-  border: none;
-  color: #ffffff;
-  border-bottom: 2px solid #86e0f9;
-}
-
-textarea {
-  background-color: transparent;
-  border: 2px solid #86e0f9;
-  color: #ffffff;
 }

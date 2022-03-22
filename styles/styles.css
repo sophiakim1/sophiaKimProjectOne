@@ -246,7 +246,7 @@ h1 {
   text-transform: uppercase;
 }
 
-ul {
+nav ul {
   list-style: none;
 }
 
@@ -285,6 +285,24 @@ h4 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-family: "Barlow";
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 92px;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: "Barlow";
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 header {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../assets/header-image.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/header-image.jpg);
@@ -312,6 +330,24 @@ h1 {
 
 h1 span {
   display: block;
+}
+
+.blogHeader {
+  background-image: url(../assets/blog-header.jpg);
+  background-size: cover;
+  min-height: 78vh;
+  padding: 29px 0;
+}
+.blogHeader .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  position: relative;
+}
+.blogHeader h2 {
+  padding-left: 650px;
+  padding-top: 100px;
 }
 
 nav {
@@ -490,6 +526,39 @@ button {
       justify-content: space-around;
 }
 
+.blogMain {
+  background-color: #0c1423;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sideBlogContainer {
+  width: 35%;
+}
+.sideBlogContainer .sideBlogImage {
+  position: relative;
+}
+.sideBlogContainer .sideBlogImage img {
+  position: absolute;
+  top: 100px;
+  z-index: 20;
+}
+.sideBlogContainer .sideBlogText {
+  width: 400px;
+  background-color: #0f614e;
+  padding: 380px 40px 10px 20px;
+  position: absolute;
+  top: 700px;
+  left: 140px;
+  z-index: 10;
+}
+
+.mainBlogContainer {
+  width: 65%;
+}
 footer {
   background-color: #86e0f9;
   border-top: 2px solid #0c1423;
@@ -500,4 +569,21 @@ footer p {
   text-align: center;
   margin: 0;
   padding: 7px;
+}
+
+.commentPost button {
+  background-color: #0f614e;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  border-bottom: 2px solid #86e0f9;
+}
+
+textarea {
+  background-color: transparent;
+  border: 2px solid #86e0f9;
+  color: #ffffff;
 }

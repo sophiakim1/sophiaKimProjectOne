@@ -26,3 +26,21 @@ h1 {
 h1 span {
     display: block;
 }
+
+.blogHeader {
+    background-image: url(../assets/blog-header.jpg);
+    background-size: cover;
+    min-height: 78vh;
+    padding: 29px 0;
+    
+    .wrapper {
+        display: flex;
+        margin: 0;
+        position: relative;
+    }
+
+    h2 {
+        padding-left: 650px;
+        padding-top: 100px;
+    }
+}

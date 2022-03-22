@@ -18,9 +18,10 @@ h1 {
     text-transform: uppercase;
 }
 
-ul {
+nav ul {
     list-style: none;
 }
+
 ul li a {
     font-family: $headingFont;
     font-size: 1rem; // 20px
@@ -50,6 +51,24 @@ p {
 h4 {
     font-family: $headingFont;
     font-size: 1.6rem; // 32px
+    font-weight: bold;
+    color: $primary;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: $headingFont;
+    font-size: 4rem; // 80px
+    font-weight: bold;
+    color: $primary;
+    line-height: 92px;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-family: $headingFont;
+    font-size: 1.3rem; // 26px
     font-weight: bold;
     color: $primary;
     letter-spacing: 1px;
